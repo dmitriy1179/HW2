@@ -2,31 +2,34 @@
 console.log("My first debug")
 
 //2
-let ageOfPet = 9
-const nameOfPet = "Dog"
-console.log(`${ageOfPet} ${nameOfPet}`)
+let Petage = 9
+const Petname = "Dog"
+console.log(`${Petage} ${Petname}`)
 
 //3
-ageOfPet = 11
-console.log(`${ageOfPet} ${nameOfPet}`)
+Petage = 11
+console.log(`${Petage} ${Petname}`)
 
 //4
-var age = 11.5
 let countOfLivedInUkraine = 9
 const name = "Ivanov"
-console.log(typeof age)
+const isAdmin = true
+const question = null
 console.log(typeof countOfLivedInUkraine)
 console.log(typeof name)
+console.log(typeof isAdmin)
+console.log(typeof question)
 
 //5
-const student = {name: "Dmitiry",
-                surname: "Cherednichenko",
-                isActive: true}
+const student =
+ {name: "Dmitiry",
+ surname: "Cherednichenko",
+ isActive: true}
 console.log(typeof student.isActive)
 
 //6
 const fruits = ["apple", "orange", "plum", "berry", "mandarin"]
-const number = [1, 2, 3, 4, 5]
+const count = [1, 2, 3, 4, 5]
 const students = [
     {name: "Ivanov",
     age: 25,
