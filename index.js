@@ -87,5 +87,5 @@ var e = Number(prompt("Введите переменную e"))
 var s = Number(s)
 var s1 = Number(s1)
 s = (f + e)**3
-s1 = f**3 + 3*f**2*e + 3*f*e**2 + e**3
+s1 = f**3 + 3*(f**2)*e + 3*f*(e**2) + e**3
 console.log(`разность кубов: ${s===s1}`)
